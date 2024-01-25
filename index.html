@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasaswini Desai | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div id="dots-container"></div>
+    <div id="header">
+        <div class="container">
+        <div class="Header">
+            <nav>
+                <img src="img/Logoyd.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+            <div class="header-text">
+            <h1>Hey! This is <span class="highlight-text">Yasaswini Desai</span></h1>
+            <div>
+                <span class="image"><h1><span class ="auto-type"></span></h1></span>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="img/Yashu.png">
+    </div>
+    <div class="social-media-container">
+        <div class="social-media1">
+          <a href="https://www.linkedin.com/in/yasaswini-desai-8385b5285/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="https://github.com/YasaswiniDesai" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://www.instagram.com/yashhh_uu/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+    </div>
+<!----------------------------------------About---------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/My pic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span class="highlight-text">Me</h1>
+                <p>Hey! I'm an Engineering student, always eager to try new things. Coding is my jam—it's not just a subject, but something I love doing to bring ideas to life. Outside of that, I enjoy drawing as a chill way to express my creativity.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('Education')">Education</p>
+                    <p class="tab-links"onclick="opentab('Skills')">Skills </p>
+                    <p class="tab-links"onclick="opentab('Certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                    <ul>
+                        <li><span>University</span><br>Srm University | Chennai, Tamilnadu | 2021-2025 | 9.37 CGPA</li>
+                        <li><span>Secondary Education</span><br>Nirmala College | Mangalagiri, AP | 2019-2021 | 95.4%</li>
+                        <li><span>Schooling</span><br>Sree Valmeeki High School | Kadiri, AP | 2010-2019 | 10 GPA</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>Developer</span><br>I'm great at web development, using HTML, CSS, and JavaScript to build responsive and dynamic websites.</li>
+                            <li><span>Graphic Desigining</span><br>I'm good at graphic design, creating eye-catching designs that tell a story and enhance user experience.</li>
+                            <li><span>Freelancing</span><br>I excel in freelancing, offering my expertise in web development and graphic design to deliver high-quality solutions tailored to client needs.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>Schooling</span><br>Sree Valmeeki High School | Kadiri, AP | 2010-2019 | 10 GPA</li>
+                        <li><span>Secondary Education</span><br>Nirmala College | Mangalagiri, AP | 2019-2021 | 95.4%</li>
+                        <li><span>University</span><br>Srm University | Chennai, Tamilnadu | 2021-2025 | 9.37 CGPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------Skills---------------------------------->
+<div id="skills">
+    <div class="skill_h1">
+    <h1> Programming <span class="highlight-text">Skills</span></h1>
+    </div>
+    <div class="container_skill">
+        <div class="skill c"></div>
+        <div class="skill cpp"></div>
+        <div class="skill python"></div>
+        <div class="skill java"></div>
+        <div class="skill sql"></div>
+        <div class="skill html"></div>
+        <div class="skill css"></div>
+        <div class="skill js"></div>
+        <div class="skill react"></div>
+    </div>
+</div>
+<!----------------------------------------Projects---------------------------------->
+<div id="projects">
+    <div class="project_h1">
+        <h1>My <span class="highlight-text">Projects</span></h1>
+      </div>
+      <div class="project-container">
+          <div class="project" ontouchstart="">
+              <img src="img/2048_lap.png" alt="2048 Game">
+              <h2><ion-icon name="game-controller"></ion-icon> <span class="highlight-text">2048 Game</span></h2>
+              <p>Developing the 2048 Game allowed me to enhance my skills in frontend development, user interface design, and responsive web design. </p>
+              <p>Technologies used: HTML, CSS, JavaScript</p>
+              <a href="https://yasaswinidesai.github.io/2048/" target="_blank"><span class="icon"><i class="fa-solid fa-eye"></i></span> See </a>
+              <a href="https://github.com/YasaswiniDesai/2048" target="_blank"><span class="icon"><ion-icon name="logo-github"></ion-icon></span> GitHub</a>
+          </div>
+          <div class="project" ontouchstart="">
+              <img src="img/Netflix.png" alt="Project 1">
+              <h2><ion-icon name="desktop-outline"></ion-icon> <span class="highlight-text">Netflix-Clone</span></h2>
+              <p>This project focuses on replicating the visual elements and functionality of Netflix's sign-in interface.</p>
+              <p>The responsive design ensures a seamless user experience on different devices.</p>
+              <a href="https://netflix-clone-1vci.vercel.app/" target="_blank"><span class="icon"><i class="fa-solid fa-eye"></i></span> See </a>
+              <a href="https://github.com/YasaswiniDesai/Netflix_Clone" target="_blank"><span class="icon"><ion-icon name="logo-github"></ion-icon></span> GitHub</a>
+          </div>
+          <div class="project" ontouchstart="">
+              <img src="img/snake.png" alt="Project 1">
+              <h2> <i class="fa-solid fa-staff-snake"></i><span class="highlight-text"> Snake Game</span></h2>
+              <p>This project demonstrates fundamental game development skills, including dynamic rendering, user input handling, and collision detection.</p>
+              <p>Technologies used: HTML, CSS, JavaScript</p>
+              <a href="https://yasaswinidesai.github.io/Snake-Game/" target="_blank"><span class="icon"><i class="fa-solid fa-eye"></i></span> See </a>
+              <a href="https://github.com/YasaswiniDesai/Snake-Game" target="_blank"><span class="icon"><ion-icon name="logo-github"></ion-icon></span> GitHub</a>
+          </div>
+          <div class="project" ontouchstart="">
+              <img src="img/Portfolio.png" alt="Project 1">
+              <h2><i class="fa-solid fa-address-card"></i><span class="highlight-text"> Portfolio</span></h2>
+              <p>A Digital presence that reflects my identity and showcases my professional journey, I embarked on the creation of my personal portfolio website.</p>
+              <p>Technologies used: HTML, CSS, JavaScript</p>
+              <a href="github_repository_link1" target="_blank"><span class="icon"><ion-icon name="logo-github"></ion-icon></span> GitHub</a>
+          </div>
+          <div class="project" ontouchstart="">
+              <img src="img/snake.png" alt="Project 1">
+              <h2>Project 1</h2>
+              <p>Description of Project 1.</p>
+              <p>Technologies used: HTML, CSS, JavaScript</p>
+              <a href="project1_link" target="_blank"><span class="icon"><i class="fa-solid fa-eye"></i></span> See </a>
+              <a href="github_repository_link1" target="_blank"><span class="icon"><ion-icon name="logo-github"></ion-icon></span> GitHub</a>
+          </div>
+      </div>
+</div>
+<!----------------------------------------Contact---------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span class="highlight-text">Me</span></h1>
+                <p><i class="fa-solid fa-envelope"></i> yasaswinidesai@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8977410394</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yasaswini-desai-8385b5285/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/YasaswiniDesai"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/yashhh_uu/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Yasaswini Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 f">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <span class="developed-by">Designed and Developed by Yasaswini Desai</span>
+    <span class="copyright-symbol">Copyright © YD</span>
+    <span class="social-media">
+        <a href="https://www.linkedin.com/in/yasaswini-desai-8385b5285/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/YasaswiniDesai"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/yashhh_uu/"><i class="fa-brands fa-instagram"></i></a>
+    </span>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-210px";
+        }
+    </script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
