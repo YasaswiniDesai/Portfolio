@@ -160,6 +160,7 @@ nav ul li a:hover::after{
     height: 35px;
     border-radius: 50%;
     font-size: 18px;
+    color: #5e0089;
     background-color: #ffffff;
 }
 
