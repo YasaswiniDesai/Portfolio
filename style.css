@@ -74,7 +74,7 @@ nav ul li a:hover::after{
     margin-top: 20%;
 }
 .header-text h1{
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 40px;
     margin-bottom: 30px;
 }
@@ -141,7 +141,7 @@ nav ul li a:hover::after{
 }
 
 #header{
-    margin-bottom: 90px;
+    margin-bottom: 140px;
 }
 
 .social-media-container {
@@ -204,7 +204,7 @@ nav ul li a:hover::after{
     margin-right: 80px;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color:#fff;
 }
@@ -267,7 +267,7 @@ nav ul li a:hover::after{
 
 .skill_h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     margin-top: 0px;
@@ -275,7 +275,7 @@ nav ul li a:hover::after{
 
     .skill {
         background-color: transparent;
-        border-radius: 5px;
+        border-radius: 10px;
         margin: 15px;
         padding: 60px 80px;
         text-align: center;
@@ -323,7 +323,7 @@ nav ul li a:hover::after{
     }
     .project_h1 {
         margin-top: 60px;
-        font-size: 2em;
+        font-size: 1.3em;
         color: #fff;
         text-align: center;
     }
