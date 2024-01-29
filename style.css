@@ -536,7 +536,8 @@ nav .fa-solid{
         font-size:25px;
     }
     nav ul{
-        background:#c770f0;
+        backdrop-filter: blur(10px);
+        background-color: rgba(137, 10, 221, 0.424);
         position: fixed;
         top: 0;
         right: -210px;
